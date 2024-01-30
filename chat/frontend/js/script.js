@@ -86,7 +86,7 @@ const handleSubmit = (event) =>{
    login.style.display = "none"
    chat.style.display = "flex"
 
-   websocket = new WebSocket("ws://localhost:8087")
+   websocket = new WebSocket("wss://zarp-2.onrender.com")
    websocket.onmessage = processMessage
  //
 }
